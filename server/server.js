@@ -24,6 +24,9 @@ app.post('/sendEmail', async (req, res) => {
   await sendBulkEmail(jobs, jobId, numEmails);
 });
 
+app.get('/test', async (req, res) => {
+  res.send('Hello World!')
+});
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

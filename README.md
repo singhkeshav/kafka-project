@@ -1,3 +1,16 @@
+# New Step for Single Container
+
+# Make sure your docker-compose command is avialble as global
+
+# Steps
+
+     1. # Please Open your terminal on root level for example kakfa-project  folder is root
+     2. run command  -> docker-compose up --build
+     3. after run success fully all images on your local please open your chrome browser
+     4. and run http://localhost:3000
+
+#
+
 # Project Title
 
 React, Node, Kafka Zookeeper, and Websocket are being used in this system test to share real-time data.
